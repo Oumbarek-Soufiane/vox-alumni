@@ -21,12 +21,7 @@ return [
      |
      | NEVER use '*' when allow_credentials is true — browsers will block it.
      */
-   'allowed_origins' => [
-    'http://localhost:3000',
-    'http://localhost:5173', // زدنا هادي ديال Vite فـ PC ديالك باش تخدم مرتاح
-    'https://vox-alumni-frontend-axgeje1es-soufianes-projects-ad3dd67d.vercel.app', // مسحنا السلاش
-    'https://vox-alumni.vercel.app' // الرابط القصير ديال بروجي Vercel
-],
+  'allowed_origins' => ['*'], // هادي كتعني: طلق اللعب لأي سيت
 
     'allowed_origins_patterns' => [],
 
