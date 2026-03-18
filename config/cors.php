@@ -22,10 +22,9 @@ return [
      | NEVER use '*' when allow_credentials is true — browsers will block it.
      */
     'allowed_origins' => [
-        'http://localhost:3000',   // Vite dev server
-        'http://127.0.0.1:3000',
-        // 'https://your-production-domain.com',
-    ],
+    'http://localhost:3000',
+    'https://yourusername.rf.gd',  // your InfinityFree URL
+],
 
     'allowed_origins_patterns' => [],
 
