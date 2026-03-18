@@ -23,7 +23,7 @@ return [
      */
     'allowed_origins' => [
     'http://localhost:3000',
-    'https://yourusername.rf.gd',  // your InfinityFree URL
+    'https://vox-alumni-frontend-axgeje1es-soufianes-projects-ad3dd67d.vercel.app/',  // your InfinityFree URL
 ],
 
     'allowed_origins_patterns' => [],
